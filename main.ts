@@ -1,9 +1,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 
-const TO_LINE = "To: my neighbor in 3B";
+const TO_LINE = "To: my dad's memory-care nurse";
 const UNSENT_LINE =
-  "The night the paramedics took your husband, I watched through the peephole with my coat on until the elevator doors closed.";
+  "I'm not on a work trip today, or the last two Tuesdays. Last time I came he shook my hand and asked if I was there to fix the radiator.";
 
 function buildEntry(): string {
   if (!TO_LINE.startsWith("To: ") || TO_LINE.includes("\n")) {
